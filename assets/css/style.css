@@ -204,6 +204,21 @@ h6 {
 #header .logo a {
 	color: #fff;
 }
+#header .logo a span:nth-child(1) {
+	color: #b21136;
+}
+#header .logo a span:nth-child(2) {
+	color: #e34d32;
+}
+#header .logo a span:nth-child(3) {
+	color: #ff8025;
+}
+#header .logo a span:nth-child(4) {
+	color: #ffb31e;
+}
+#header .logo a span:nth-child(5) {
+	color: #33a6a5;
+}
 
 #header .logo img {
 	max-height: 40px;
