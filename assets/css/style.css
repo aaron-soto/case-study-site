@@ -513,7 +513,7 @@ h6 {
 	/* font-family: 'Poppins', sans-serif; */
 }
 #hero h1 img {
-	height: 6rem;
+	max-height: 6rem;
 }
 
 #hero h1 span {
