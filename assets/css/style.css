@@ -12,6 +12,10 @@ a {
 	text-decoration: none;
 }
 
+p a {
+	text-decoration: underline;
+}
+
 a:hover {
 	color: #ff8025;
 	text-decoration: none;
@@ -284,7 +288,8 @@ h6 {
 	color: #fff;
 	white-space: nowrap;
 	transition: 0.3s;
-	font-size: 14px;
+	font-size: 15px;
+	font-weight: 500;
 }
 
 .navbar a i,
@@ -950,7 +955,7 @@ section {
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
-.menu #menu-flters {
+.menu #menu-filters {
 	padding: 0;
 	margin: 0 auto 0 auto;
 	list-style: none;
@@ -958,7 +963,7 @@ section {
 	border-radius: 50px;
 }
 
-.menu #menu-flters li {
+.menu #menu-filters li {
 	cursor: pointer;
 	display: inline-block;
 	padding: 8px 12px 10px 12px;
@@ -972,12 +977,12 @@ section {
 	font-family: 'Playfair Display', serif;
 }
 
-.menu #menu-flters li:hover,
-.menu #menu-flters li.filter-active {
+.menu #menu-filters li:hover,
+.menu #menu-filters li.filter-active {
 	color: #ff8025;
 }
 
-.menu #menu-flters li:last-child {
+.menu #menu-filters li:last-child {
 	margin-right: 0;
 }
 
@@ -1344,7 +1349,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-	color: #ff8025;
+	color: #ffb31e;
 	font-size: 26px;
 }
 
@@ -1385,7 +1390,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-	background-color: #ff8025;
+	background-color: #ffb31e;
 }
 
 /*--------------------------------------------------------------
