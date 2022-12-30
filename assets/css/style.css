@@ -512,6 +512,9 @@ h6 {
 	font-family: 'Open Sans', sans-serif;
 	/* font-family: 'Poppins', sans-serif; */
 }
+#hero h1 img {
+	height: 6rem;
+}
 
 #hero h1 span {
 	color: #f1f1f1;
