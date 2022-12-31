@@ -178,10 +178,10 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-	/* background: rgba(12, 11, 9, 0.6); */
-	background-color: rgba(0, 0, 0, 0.15);
-	backdrop-filter: blur(5px);
-	-webkit-backdrop-filter: blur(5px);
+	background: rgba(12, 11, 9, 0.6);
+	/* background-color: rgba(0, 0, 0, 0.15); */
+	/* backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px); */
 	border-bottom: 1px solid rgba(12, 11, 9, 0.6);
 	transition: all 0.5s;
 	z-index: 997;
@@ -225,8 +225,13 @@ h6 {
 	color: #33a6a5;
 }
 
-#header .logo img {
+#header .logo img,
+#header .logo object {
 	max-height: 40px;
+}
+
+#header .logo object {
+	width: 80px;
 }
 
 /*--------------------------------------------------------------
@@ -254,6 +259,9 @@ h6 {
 		margin: 0 15px 0 0;
 		padding: 8px 20px;
 	}
+}
+object {
+	max-height: 250px;
 }
 
 /*--------------------------------------------------------------
