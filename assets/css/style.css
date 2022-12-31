@@ -427,7 +427,7 @@ object {
 	left: 15px;
 	padding: 10px 0;
 	border-radius: 6px;
-	background-color: #fff;
+	background-color: #181818;
 	overflow-y: auto;
 	transition: 0.3s;
 }
@@ -435,8 +435,9 @@ object {
 .navbar-mobile a,
 .navbar-mobile a:focus {
 	padding: 10px 20px;
-	font-size: 15px;
-	color: #1a1814;
+	font-size: 16px;
+	font-weight: 600;
+	color: #f1f1f1;
 }
 
 .navbar-mobile a:hover,
