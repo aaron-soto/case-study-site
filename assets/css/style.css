@@ -492,7 +492,7 @@ object {
 	width: 100%;
 	/* height: 100vh; */
 	height: 70vh;
-	background: url('../img/coffee-front-min.jpg') top center;
+	background: url('../img/coffee-front-min(Large).jpg');
 	background-size: cover;
 	position: relative;
 	padding: 0;
