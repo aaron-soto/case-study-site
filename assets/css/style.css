@@ -2,7 +2,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Manrope', sans-serif;
+	letter-spacing: 1px;
 	background: #0c0b09;
 	color: #fff;
 }
